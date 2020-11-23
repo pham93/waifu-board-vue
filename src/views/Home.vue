@@ -17,25 +17,4 @@ import { defineComponent } from 'vue';
 export default defineComponent({
   props: [],
 });
-
-function a(_data: any) {
-  const v = {
-    a: { data: 'a', c: 'b' },
-    b: 'lov',
-  };
-
-  const c = [
-    'data',
-    'love',
-    'inconst',
-    'data',
-    'data',
-    'love',
-    'inconst',
-    'data',
-    'data',
-  ];
-
-  return 'helloworld';
-}
 </script>
